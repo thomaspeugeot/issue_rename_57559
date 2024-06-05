@@ -1,15 +1,9 @@
 package main
 
-type Foo struct {
-}
+// The Foo type is used with [Bar].
+type Foo struct{}
 
-// Rename does not work for Foo
-// struct [Foo] is a nice struct ...
+// func Bar uses [Foo].
+func Bar(Foo) {}
 
-func FuncA() {
-}
-
-// Rename works for FuncA
-// FuncB is same as [FuncA].
-func FuncB() {
-}
+// some comment about [Foo]
