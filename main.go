@@ -13,7 +13,3 @@ func FuncA() {
 // FuncB is same as [FuncA].
 func FuncB() {
 }
-
-func main() {
-
-}
